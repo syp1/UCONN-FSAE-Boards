@@ -117,7 +117,7 @@ const PinDescription g_APinDescription[]=
 {
   // 0..13 - Digital pins
   // ----------------------
-  // 0/1 - SERCOM/UART (Serial1)
+  // 0/1 - SERCOM/UART (Serial)
   { PORTA, 11, PIO_TIMER, (PIN_ATTR_DIGITAL|PIN_ATTR_PWM|PIN_ATTR_TIMER), No_ADC_Channel, PWM0_CH3, NOT_ON_TIMER, EXTERNAL_INT_11 }, // CHANGED: PWM_RED: TCC0/WO[3]
   { PORTA, 10, PIO_SERCOM, (PIN_ATTR_DIGITAL), No_ADC_Channel, NOT_ON_PWM, NOT_ON_TIMER, EXTERNAL_INT_10 }, // TX: SERCOM0/PAD[2] / UNUSED
 
@@ -219,11 +219,11 @@ SERCOM sercom3( SERCOM3 ) ;
 SERCOM sercom4( SERCOM4 ) ;
 SERCOM sercom5( SERCOM5 ) ;
 
-Uart Serial1( &sercom0, PIN_SERIAL1_RX, PIN_SERIAL1_TX, PAD_SERIAL1_RX, PAD_SERIAL1_TX ) ;
+Uart Serial( &sercom0, PIN_SERIAL_RX, PIN_SERIAL_TX, PAD_SERIAL_RX, PAD_SERIAL_TX ) ;
 Uart Serial( &sercom5, PIN_SERIAL_RX, PIN_SERIAL_TX, PAD_SERIAL_RX, PAD_SERIAL_TX ) ;
 void SERCOM0_Handler()
 {
-  Serial1.IrqHandler();
+  Serial.IrqHandler();
 }
 
 void SERCOM5_Handler()
