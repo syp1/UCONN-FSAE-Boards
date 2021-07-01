@@ -17,7 +17,7 @@
 
 # UCONNFSAE_DASH2021
 # --------------------------------------
-uconnfsae_dash2021.name=UConnFSAE Dashboard 2021
+uconnfsae_dash2021.name=UConnFSAE_Dashboard_2021
 uconnfsae_dash2021.vid.0=0x2341
 uconnfsae_dash2021.pid.0=0x804d
 uconnfsae_dash2021.vid.1=0x2341
@@ -36,9 +36,9 @@ uconnfsae_dash2021.upload.wait_for_upload_port=true
 uconnfsae_dash2021.upload.native_usb=true
 uconnfsae_dash2021.build.mcu=cortex-m0plus
 uconnfsae_dash2021.build.f_cpu=48000000L
-uconnfsae_dash2021.build.usb_product="UConnFSAE Dashboard 2021"
+uconnfsae_dash2021.build.usb_product="UConn Dash 2021"
 uconnfsae_dash2021.build.usb_manufacturer="UConn FSAE"
-uconnfsae_dash2021.build.board=UConnFSAEDASH
+uconnfsae_dash2021.build.board=UConn_Dash2021
 uconnfsae_dash2021.build.core=arduino
 uconnfsae_dash2021.build.extra_flags=-D__SAMD21G18A__ {build.usb_flags}
 uconnfsae_dash2021.build.ldscript=linker_scripts/gcc/flash_with_bootloader.ld

@@ -19,8 +19,8 @@
           },
           "url": "https://github.com/syp1/UCONN-FSAE-Boards/blob/main/UConnFSAE%20SAMD.zip?raw=true",
           "archiveFileName": "UConnFSAE_SAMD.zip",
-          "checksum": "SHA-256: 651747eef64377310f9d3f70063bd7aeccfcfe6d88ec7cc3439af030c1521053",
-          "size": "1641061",
+          "checksum": "SHA-256: 9ff19e669ca2c6424db7f6a99844a0a8679d25f6d4c63465dff04fc75383d53b",
+          "size": "1641067",
           "boards": [{ "name": "UConn Dash 2021" }],
           "toolsDependencies": [
             {
