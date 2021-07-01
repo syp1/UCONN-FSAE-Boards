@@ -10,7 +10,7 @@
       },
       "platforms": [
         {
-          "name": "UConnFSAE SAMD (32-bits ARM Cortex-M0+) Boards",
+          "name": "UConnFSAE SAMD Boards",
           "architecture": "samd",
           "version": "0.0.1",
           "category": "Contributed",
