@@ -1,9 +1,10 @@
 {
-   "packages":[
+   "packages":
+   [
       {
          "name":"UConn FSAE Boards",
          "maintainer":"UConn FSAE",
-         "websiteURL":"",
+         "websiteURL":"https://uconnformulasae.com",
          "email":"stephen.pang@uconn.edu",
          "platforms":[
             {
