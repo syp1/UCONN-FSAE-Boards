@@ -1,0 +1,57 @@
+{
+  "packages": [
+    {
+      "name": "UConn FSAE Boards",
+      "maintainer": "UConn FSAE",
+      "websiteURL": "https://uconnformulasae.com",
+      "email": "stephen.pang@uconn.edu",
+      "help": {
+        "online": "http://github.com/UCONNFSAE"
+      },
+      "platforms": [
+        {
+          "name": "UConnFSAE SAMD Boards",
+          "architecture": "samd",
+          "version": "0.0.1",
+          "category": "Contributed",
+          "help": {
+            "online": "http://github.com/UCONNFSAE"
+          },
+          "url": "https://github.com/syp1/UCONN-FSAE-Boards/blob/main/UConnFSAE%20SAMD.zip?raw=true",
+          "archiveFileName": "UConnFSAE_SAMD.zip",
+          "checksum": "MD5: 12b18b07fe4679dc7abf57ccd2621898",
+          "size": "1640300",
+          "boards": [{ "name": "UConn Dash 2021" }],
+          "toolsDependencies": [
+            {
+              "packager":"arduino",
+              "name":"arm-none-eabi-gcc",
+              "version":"7-2017q4"
+            },
+            {
+              "packager":"arduino",
+              "name":"bossac",
+              "version":"1.8.0-48-gb176eee"
+            }
+            {
+              "packager":"arduino",
+              "name":"openocd",
+              "version":"0.10.0-arduino9"
+            },
+            {
+              "packager":"arduino",
+              "name":"CMSIS",
+              "version":"4.5.0"
+            },
+            {
+              "packager":"arduino",
+              "name":"CMSIS-Atmel",
+              "version":"1.2.0"
+            }
+          ]
+        }
+      ],
+      "tools": []
+    }
+  ]
+}
